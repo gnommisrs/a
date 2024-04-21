@@ -1,0 +1,235 @@
+scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #313133;
+}
+section{
+    min-height: 95vh;
+}
+.hero{
+    background-color:#313133;
+    color: #ffffff;
+    display: flex;
+}
+.korobka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 95vh;
+}
+.korobka2{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 95vh;
+
+}
+h1{
+    margin: 0;
+    font-size: 100px;
+}
+h2{
+    margin: 0;
+    font-size: 50px;
+}
+h3{
+    margin: 0;
+    font-size: 30px;
+}
+h4{
+    margin: 0;
+    font-size: 50px;
+    color: #313133;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+img{
+    width: 80%;
+}
+.w50{
+    width: 30%;
+}
+input{
+    display: block;
+    margin: 30px 0;
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+}
+.center{
+    display: flex;
+    justify-content: center; 
+}
+#aboutme{
+    padding: 50px;
+    color:#52535c;
+    background-color: #d8d8d8;
+    position: relative;
+    z-index: 3;
+}
+.m50{
+    margin: 50px;
+}
+
+
+/* Все про меню */
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: 600;    
+}
+.link{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    color: #3232fa;
+}
+.image{
+    width: 150px;
+    height: auto;
+    border-radius: 30%;
+}
+nav{
+    border: 1px solid #d8d8da ;
+    margin: 20px 50px;
+    border-radius: 50px;
+    width: calc(100% - 100px);
+    color: #d8d8da;
+    background-color: #313133;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    /*position: fixed;*/
+}
+.right{
+    position: absolute;
+    right: 80px;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: #b6b6b8;
+    border-radius: 30px;
+    color: black;
+}
+
+
+/*Все про пятно*/
+.piatno{
+    z-index: 1;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 800px;
+    left: 75%;
+    box-shadow: 0px 0px 300px 300px #9bb3c7 ;
+}
+img{
+    z-index: 2;
+}
+
+/*Все про блог*/
+#myblog{
+    padding: 150px 0; 
+    background-color: #43434a;
+    color:#ffffff;
+
+}
+.card{
+    width: 500px;
+    background-color:#b6b6b8;
+    padding: 50px ;
+    border-radius: 30px;
+}
+.w100{
+    width: 100%;
+}
+.cardbtn{
+    color: #52535c;
+    text-decoration: none;
+    width: 500px;
+    display: block;
+    margin: 50px 150px 0 50px;
+}
+.carbtn{
+    text-decoration: none;
+    color: #52535c;
+    width: 400px;
+    display: block;
+    margin: 0 150px;
+    margin-left: 950px;
+}
+.dflex{
+    display: flex;
+}
+.w80{
+    width: 80%;
+
+}
+.chiutnizhe{
+    margin-top: 450px;
+}
+.ya {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 -10px;
+    scroll-behavior: smooth; 
+        text-align: center;
+            color: #313133; 
+}
+#soso {
+    background-color: #b6b6b8;
+}
+.about {
+    flex: 1;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 150px;
+    color: #313133;
+}
+.about1 {
+    flex: 1;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 320px;
+    margin-right: 80px;
+    color: #313133;
+}
+.logo2{
+    width: 500px;
+    height: auto;
+    border-radius: 1220%;
+        margin-top: 100px;
+        margin-left: 150px
+}
+#dostizheniya{
+    padding: 100px 0; 
+    background-color: #515156;
+    color:#ffffff;
+    height: 90vh;
+}
+.dos {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 150px -10px;
+    scroll-behavior: smooth; 
+        text-align: center;
+}
+.ds {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
