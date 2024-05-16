@@ -188,7 +188,9 @@ img{
 }
 #soso {
     background-color: #b6b6b8;
+    padding: 100px 0;
 }
+
 .about {
     flex: 1;
     padding: 0 10px;
@@ -228,6 +230,28 @@ img{
 }
 .ds {
     text-align: center;
+}
+#myskils {
+    background-color: #b6b6b8;
+    height: 90vh;
+    color: #313133;
+    padding: 100px 0;
+}
+.ty {
+    text-align: center;
+}
+.oii {
+    display: flex;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth; 
+        text-align: center;
+        padding: 30px;
+}
+.xz {
+    margin: 100px 100px 0 100px;text-align: center;
+}
+.op {
+    margin: 97px 100px 0 100px;text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
